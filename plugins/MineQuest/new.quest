@@ -1,0 +1,20 @@
+Name:Archer2
+Repeatable:true
+Reset:true
+Spawn:37:67:82
+Event:1:MessageEvent:10:Kill the two monster on the ship.
+Event:2:MessageEvent:20:You cannot get on the ship though.
+Event:3:EntitySpawnerEvent:100:250:66:78:Zombie:f
+Event:4:KillEvent:20:2:Zombie:2
+Event:5:CancelEvent:10:3
+Event:6:MessageEvent:20:Good Shot! That should be all of them.
+Event:7:MessageEvent:30:Go tell the fisherman the good news.
+Event:8:AreaEvent:40:3:38:63:76:3
+Event:9:MessageEvent:50:Thank you so much for helping me.
+Event:10:ExperienceAdd:60:all:1000:400:500
+Event:11:QuestAvailableEvent:20:Archer3
+Event:12:CompleteQuestEvent:60
+Event:13:QuestEvent:32:-1
+Task:0:1,2,3,4
+Task:2:5,6,7,8
+Task:3:9,10,11,12,13

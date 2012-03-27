@@ -1,0 +1,12 @@
+kickmessage: 'You were kicked from the server, reason: that password is invalid'
+not-yet-registered: You are not yet registered on this server. Please do so using /setpassword <password>
+ask-for-login: Please log in using /login <password>
+reloadmessage: The server has been reloaded, please log in again using /login <password>
+successfull-login: You successfully logged in
+safeip-message: You successfully logged in. If you log in from this location again no password will be required.
+incorrect-password: That password is invalid, please try again
+/login-message: If you regard this network as safe, please use /safeip <password> to mark this location as safe.
+password-set: Your password has been encrypted and saved! You can use /login <password> to log in
+block-if-not-logged-in: You must be loggin in to do this. Use /login <password> to do so
+already-locked: You account has already been locked
+reloadmessage2: If your ip is locked do /login without a password
